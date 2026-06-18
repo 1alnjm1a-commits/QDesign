@@ -41,7 +41,7 @@ bulletsList.forEach((li, i) => {
     bulletsList.forEach((li) => li.classList.remove("active"));
     e.target.classList.add("active");
     indexOfImages = e.target.getAttribute("data-id");
-    landing.style.backgroundImage = `url(${backgrounds[indexOfImages]})`;
+    landing.style.backgroundImage = `url('${backgrounds[indexOfImages]})'`;
   });
 });
 
