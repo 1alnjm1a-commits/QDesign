@@ -30,9 +30,9 @@ links.forEach((a) => {
 
 let indexOfImages = 0;
 backgrounds = [
-  "/images/night.webp",
-  "/images/landing.webp",
-  "/images/subscribe.webp",
+  "../images/night.webp",
+  "../images/landing.webp",
+  "../images/subscribe.webp",
 ];
 
 bulletsList.forEach((li, i) => {
