@@ -270,7 +270,7 @@ header nav .form i {
 
 /*#region Start landing   */
 .landing {
-    background-image: url(/images/landing.webp);
+    background-image: url(../images//landing.webp);
     background-color: #a3a2a4;
     height: 100vh;
     background-repeat: no-repeat;
@@ -945,7 +945,7 @@ header nav .form i {
     margin-top: var(--section-padding);
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/quote.webp);
+    background-image: url(images/quote.webp);
     position: relative;
     background-size: cover;
 }
@@ -1225,7 +1225,7 @@ header nav .form i {
 .subscribe {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/subscribe.webp);
+    background-image: url(images/subscribe.webp);
     position: relative;
     background-size: cover;
 }
@@ -1430,7 +1430,7 @@ header nav .form i {
 .footer {
     padding-top: calc((var(--section-padding))/2);
     padding-bottom: calc((var(--section-padding))/2);
-    background-image: url(/images/subscribe.webp);
+    background-image: url(images/subscribe.webp);
     background-size: cover;
     position: relative;
 }
