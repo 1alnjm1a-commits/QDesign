@@ -26,27 +26,6 @@ links.forEach((a) => {
 
 //#endregion End header */
 
-//#region Landing */
-
-let indexOfImages = 0;
-backgrounds = [
-  "./images/night.webp",
-  "./images/landing.webp",
-  "./images/subscribe.webp",
-];
-
-bulletsList.forEach((li, i) => {
-  li.setAttribute("data-id", i);
-  li.addEventListener("click", (e) => {
-    bulletsList.forEach((li) => li.classList.remove("active"));
-    e.target.classList.add("active");
-    indexOfImages = e.target.getAttribute("data-id");
-    landing.style.backgroundImage = `url('${backgrounds[indexOfImages]})'`;
-  });
-});
-
-//#endregion Landing */
-
 //#region Start portfolio //
 
 function filterImages(NameOfClass) {
