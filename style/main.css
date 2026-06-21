@@ -348,7 +348,7 @@ header nav .form i {
     justify-content: center;
     gap: 20px;
 }
-.main-btn {
+.landing .main-btn {
     background-color: black ;
     padding: 10px 30px;
     justify-content: center;
@@ -356,12 +356,12 @@ header nav .form i {
     border: 2px solid var(--main-color);
     transition: background-color 0.3s ease, transform 0.4s ease-in-out, box-shadow 0.3s ease;
 }
-.main-btn:hover {
+.landing .main-btn:hover {
     transform: translateY(-2px);
     background-color: var(--main-color);
     border-color: white;
 }
-.main-btn a {
+.landing .main-btn a {
     text-decoration: none;
     color: var(--white);
 }
