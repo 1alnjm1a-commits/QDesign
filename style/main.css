@@ -759,21 +759,19 @@ header nav .form i {
 .stats .container {
     position: relative;
     z-index: 2;
+    overflow: hidden;
     color: var(--p-color);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
 }
 
 .stats .container .box {
-    padding: 50px;
+    padding: 20px;
     background-color: var(--transparent-color);
     display: grid;
     justify-content: center;
 }
-
-
-
 
 .stats .container .box i {
     width: 40px;
